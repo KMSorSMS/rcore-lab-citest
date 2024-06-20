@@ -75,7 +75,7 @@ jobs:
         with:
           ref: 'gh-pages'
       - name: Save Log File
-        uses: yfblock/multi-rank-log@main
+        uses: KMSorSMS/multi-rank-log@main
         with:
           public-dir: classroom
           points: ${{ needs.basic-test.outputs.points }}
